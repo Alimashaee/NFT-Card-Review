@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="img">
+          <img src="images/image-equilibrium.jpg" alt="equilibrium image" />
+          <div class="background"><img src="images/icon-view.svg" /></div>
+        </div>
+        <a class="title" href="#">Equilibrium #3429</a>
+        <p class="sub-title">
+          Our Equilibrium collection promotes balance and calm
+        </p>
+        <div class="flex">
+          <div class="flex1">
+            <img
+              class="icon1"
+              src="images/icon-ethereum.svg"
+              alt="Ethereum icon"
+            />
+            <p
+              style="
+                font-size: 16px;
+                font-weight: 400;
+                color: hsl(178, 100%, 50%);
+              "
+            >
+              0.041 ETH
+            </p>
+          </div>
+          <div class="flex2">
+            <img class="icon2" src="images/icon-clock.svg" alt="Clock icon" />
+            <p
+              style="
+                font-size: 16px;
+                font-weight: 300;
+                color: hsl(215, 51%, 70%);
+              "
+            >
+              3 days left
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="author">
+          <img
+            src="images/image-avatar.png"
+            alt="Author image"
+            style="width: 40px; border-radius: 100%; border: 1px solid white"
+          />
+          <p style="margin-left: 15px; color: hsl(215, 51%, 70%)">
+            Creation of
+          </p>
+          <a class="author-name" href="#">Jules Wyvern</a>
+        </div>
+      </div>
+    </div>
+    <div style="color: hsl(215, 51%, 70%)" class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ali Mashaee</a>.
+    </div>
+  </body>
+</html>
